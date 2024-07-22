@@ -1,0 +1,16 @@
+So far, we have only heard of Python's powers. Now, we will witness them!
+Powers or exponents in Python can be calculated using the built-in power function. Call the power function  as shown below:
+
+CODE : 
+      a = 2
+      b = 3
+      m = 5
+
+# Calculate a^b
+      result1 = pow(a, b)  # Equivalent to a ** b
+
+# Calculate (a^b) % m
+      result2 = pow(a, b, m)
+
+      print(result1)  # Output: 8 (2^3 = 8)
+      print(result2)  # Output: 3 ((2^3) % 5 = 8 % 5 = 3)
