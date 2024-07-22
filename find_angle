@@ -1,0 +1,19 @@
+import math
+
+# Read inputs
+AB = float(input())  # Length of side AB (a)
+BC = float(input())  # Length of side BC (b)
+
+# Calculate angle theta in radians
+theta_rad = math.atan2(AB, BC)
+
+# Convert radians to degrees
+theta_deg = math.degrees(theta_rad)
+
+# Round to nearest integer
+rounded_theta_deg = round(theta_deg)
+
+# Print the result
+print(f"{rounded_theta_deg}°")
+
+
